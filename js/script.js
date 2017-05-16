@@ -33,7 +33,7 @@ function agregar(){
 
 	//paso7
 	chck.addEventListener("click", function (){
-		elementoContenedor.classList.toogle("tachado");
+		elementoContenedor.classList.toggle("tachado");
 	})
 
 	//paso8
@@ -42,7 +42,7 @@ function agregar(){
 	})
 
 	cora.addEventListener("click", function(){
-		cora.classList.toogle("red");
+		cora.classList.toggle("red");
 	})
 
 	if(tareas == null || tareas.length == 0){
